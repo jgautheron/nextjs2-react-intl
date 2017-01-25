@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "airbnb",
+    "next"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "comma-dangle": [1, "always-multiline"],
+    "import/first": 0,
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default": 0,
+    "import/prefer-default-export": 0,
+    "object-curly-spacing": ["error", "always"],
+    "semi": ["error", "never"],
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/react-in-jsx-scope": 0
+  }
+}
